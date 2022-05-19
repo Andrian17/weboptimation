@@ -1,0 +1,150 @@
+/* hover nav */
+@media screen and (min-width: 600px) {
+  nav > ul > li > a:hover {
+    border-bottom: 7px ridge rgba(223, 36, 45, 0.665);
+  }
+}
+
+/* breakpint */
+/* tablet */
+
+/* mobilw */
+@media screen and (max-width: 573px) {
+  .hamburger-container {
+    display: flex;
+  }
+
+  .head-content-restaurant {
+    max-width: 95%;
+  }
+
+  #hamburgerButton {
+    color: rgb(3, 3, 3);
+  }
+
+  .nav {
+    z-index: 10;
+    background-color: rgb(244, 200, 200);
+    width: 300px;
+    position: absolute;
+    top: 70px;
+    color: rgb(193, 80, 80);
+    display: block;
+
+    /* This trasform moves the drawer off canvas. */
+    -webkit-transform: translate(-600px, 0);
+    transform: translate(-300px, 0);
+
+    /* Optionally, we animate the drawer. */
+    transition: transform 0.3s ease;
+  }
+  nav > ul {
+    display: block;
+  }
+  nav > ul > li {
+    margin-left: 10px;
+    padding: 10px;
+    color: black;
+    display: block;
+  }
+
+  .open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  .click-menu {
+    transform: rotate(90deg);
+  }
+
+  .nav-item {
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+  }
+
+  /* Img responsive */
+  .hero {
+    background-image: url('../public/images/heros/hero-image_4-small.jpg');
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    max-width: 1000px;
+  }
+  .hero {
+    min-width: 1000px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    max-width: 1000px;
+  }
+  .hero {
+    min-width: 1000px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  ul {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .cap1 {
+    font-size: 24px;
+  }
+  .cap2 {
+    font-size: 18px;
+  }
+  .footer-card > .description {
+    font-size: 18px;
+  }
+  .not-found-restaurant {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  list-restaurant {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 650px) {
+  .cap3 {
+    font-size: 26px;
+  }
+  .not-found-restaurant {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  list-restaurant {
+    grid-template-columns: 1fr;
+  }
+  .cap1 {
+    font-size: 18px;
+  }
+  .cap2 {
+    font-size: 16px;
+  }
+  .footer-card > .description {
+    font-size: 18px;
+  }
+  .cap3 {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .not-found-restaurant {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 951px) {
+  list-restaurant {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

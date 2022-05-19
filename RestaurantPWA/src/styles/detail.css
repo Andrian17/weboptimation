@@ -1,0 +1,138 @@
+/* Detail Restaurant */
+.detail-restaurant {
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ffe9f9;
+  box-shadow: 0 4px 8px 0 rgba(173, 68, 91, 0.842);
+  z-index: 9;
+  border-radius: 15px;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 2px auto;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.detail-restaurant__container {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  padding: 20px;
+  margin: 0 auto;
+  font-weight: 800;
+}
+
+.detail-restaurant__image {
+  width: 100%;
+}
+
+.detail-restaurant__image > picture {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  object-position: center;
+  overflow: auto;
+  border-radius: 7px;
+}
+
+.detail-restaurant__info > p {
+  margin-bottom: 15px;
+}
+
+.head-content-restaurant {
+  padding: 10px;
+  color: rgb(250, 100, 12);
+  text-align: left;
+  position: absolute;
+  border: 1px solid rgb(0, 4, 119);
+  border-radius: 7px;
+  background-color: #c6191923;
+  width: 450px;
+  margin-top: 10px;
+  font-weight: 1000;
+  letter-spacing: 2px;
+}
+
+.detail-categories {
+  margin-bottom: 10px;
+}
+
+.detail-menu {
+  margin-bottom: 10px;
+}
+
+.detail-menu > h4 {
+  font-size: large;
+  font-weight: 800;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+}
+
+/* Detail Restaurant */
+.restaurant-description {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Review */
+.btn-add-review {
+  background-color: #db0000;
+  color: antiquewhite;
+  border: 0px;
+  border-radius: 5px;
+  width: 100px;
+  height: 55px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  position: relative;
+  left: 5%;
+}
+
+.form-review {
+  max-width: 80%;
+  margin: 12px auto;
+  border-radius: 5px;
+  background-color: #f7e0f1;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(173, 68, 91, 0.842);
+  align-items: center;
+  align-content: center;
+}
+
+.label-input-review {
+  display: block;
+}
+
+#review {
+  display: block;
+}
+
+#nama-reviewers {
+  padding: 10px;
+  min-height: 50px;
+  min-width: 50px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #db0000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#review-value {
+  min-width: 100px;
+  min-height: 100px;
+  width: 90%;
+}
